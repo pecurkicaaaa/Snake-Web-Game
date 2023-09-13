@@ -1,6 +1,6 @@
 # Snake-Web-Game :video_game:
 
-![Game Screenshot](screenshot.png)
+![Game Screenshot](Screenshot (300).png)
 
 This is a classic :snake: game implemented using HTML, CSS, and JavaScript. 
 \n Players can choose the size of the game board, and the snake's speed.
