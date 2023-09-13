@@ -1,0 +1,79 @@
+#h1{
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#div1{
+    
+    color: black;
+    font-size: 15pt;
+    text-align: center;
+}
+
+#slika1{
+    margin-left: 615px; 
+       
+}
+
+.div{
+    font-size: 15pt;
+    text-align: center;
+    
+}
+#pozadina{
+    background-image: url(zmijica-dodatno/slike/pozadina.jpg);
+    background-size: 1400px 650px;  
+}
+
+h2{
+    text-align: center;
+    color: black;
+}
+
+#dugmici{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 14pt;
+    text-transform: none;
+    
+}
+
+.dugmad{
+    width: 150px;
+    height: 35px;
+    text-decoration: none;
+    background-color: black;
+}
+.dugmad:hover{
+    background-color: #333;
+  color: #fff;
+}
+
+#rez{
+    text-decoration: none;
+    color:white;
+    font-size: 15pt;
+
+}
+
+.radio{
+    transform: scale(1.5);
+}
+
+#igra{
+    text-decoration: none;
+    color:white;
+    font-size: 15pt;
+}
+h2{
+    text-decoration: underline;
+    
+}

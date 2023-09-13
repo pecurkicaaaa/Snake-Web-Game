@@ -1,0 +1,83 @@
+#tabla20 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000;
+    display: none;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 200px;
+  }
+
+#tabla50 {
+    width: 400px;
+    height: 400px;
+    border: 2px solid #000;
+    position: relative;
+    display: none;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+#tabla100 {
+    width: 600px;
+    height: 600px;
+    border: 2px solid #000;
+    position: relative;
+    display: none;
+    margin-left: 100px;
+}
+
+#pozadina{
+    background-image: url(zmijica-dodatno/slike/pozadina.jpg);
+    background-size: 1400px 650px;  
+}
+
+.zmija{
+    background-color: green;
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    border-radius: 50%;
+    
+}
+
+#veci{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 70%;
+    
+}
+
+.hrana{
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 50%;
+   
+}
+.superhrana{
+    background-color: rgb(61, 129, 218);
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 50%;
+   
+}
+
+#rez{
+    font-size: 20pt;
+    text-align: center;
+    
+    padding-top: 30px;
+    width: 20%;
+}
+
+.isto{
+    
+    float: left;
+}

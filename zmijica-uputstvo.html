@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zmijica</title>
+    <link rel="stylesheet" href="uputstvo.css">
+    <script src="jquery-3.7.0.min.js"></script>
+
+    <script src="uputstvo.js"></script>
+    </head>
+<body id="pozadina">
+
+    <h1 id="h1">ZMIJICA</h1>
+    
+    <div id="div1">
+       Za ovu igru možete izabrati neki od 3 nivoa  i veličinu table po kojoj se zmija kreće. Nivoi se razlikuju po brzini
+       <br>
+       kretanja zmije. Ukoliko zmija udari u ivice zida, izgubili ste.
+       <br>
+        Cilj igre je da sakupite što više poena, pri čemu <span style="color: red; font-weight:bold;">crvena</span> hrana donosi +1 poen, a <span style="color:blue; ; font-weight:bold;">plava</span> - superhrana donosi +10 poena.
+       <br>
+       <h3>SREĆNO!</h3>
+    </div>
+    
+    <h2>NIVO:</h2>
+    <div class="div">
+    
+    <label for="radio1">Osnovni</label>
+    <input class=radio type="radio" id="radio1" name="radiogroup" value="radio1" checked>
+        
+    </div> <br>
+    <div class="div">
+    <label for="radio2">Srednji</label>
+    <input class=radio type="radio" id="radio2" name="radiogroup" value="radio2">
+        
+        
+        
+    </div> <br>
+    <div class="div">
+    <label for="radio3">Napredni</label>
+    <input class=radio type="radio" id="radio3" name="radiogroup" value="radio3"> 
+    </div>
+<br>
+    <h2>TABLA:</h2>
+    <div class="div">
+        <label for="radio4">20x20</label>
+        <input class=radio type="radio" id="radio4" name="radiogroup1" value="radio4" checked>
+            
+    </div> <br>
+    <div class="div">
+        <label for="radio5">50x50</label>
+        <input class=radio type="radio" id="radio5" name="radiogroup1" value="radio5">
+            
+            
+            
+    </div> <br>
+    <div class="div">
+        <label for="radio6">100x100</label>
+        <input class=radio type="radio" id="radio6" name="radiogroup1" value="radio6">
+           
+    </div>
+    <br>
+    <div id="dugmici"> 
+    <button id="igra" class="dugmad">IGRAJ</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button id="rez" class="dugmad"><a href="zmijica-rezultati.html" id="rez">REZULTATI</a></Button>
+    </div>  
+</body>
+</html>

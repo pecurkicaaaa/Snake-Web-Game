@@ -1,0 +1,57 @@
+#pozadina{
+    background-image: url(zmijica-dodatno/slike/pozadina.jpg);
+    background-size: 1400px 650px;  
+}
+
+#div{
+    font-size: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 800px;
+    margin-left: 70px;
+}
+#div td {
+    padding: 8px;
+    border: 1px solid black;
+    width: 50%;
+    height: 15px;
+    text-align: center;
+    color: black;
+  }
+
+#div th {
+    background-color: rgb(21, 90, 21);
+    text-align: center;
+    padding: 8px;
+}
+
+#prvi{
+    padding-left: 350px;
+    font-size: 30px;
+}
+
+#dugme{
+    background-color: rgb(26, 156, 26);
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+}
+
+#dugme:hover{
+    background-color:rgb(63, 163, 63);
+  color: #fff;
+}
+
+#link{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+#m{
+    font-size: 15pt;
+   
+}
+
+#abc{
+    background-color: rgba(218, 85, 32, 0.582);
+}
